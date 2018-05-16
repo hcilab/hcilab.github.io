@@ -1,23 +1,898 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html>
 
-<div class="home">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>UNB HCI Lab</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="The Human-Computer Interaction Lab at the University of New Brunswick in Fredericton, Canada.">
+    <link rel="canonical" href="https://hcilab.github.io/">
 
-  <h1 class="page-heading">Posts</h1>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+    <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+    <link rel="stylesheet" href="/style.css">
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+    <!-- Custom Fonts -->
+    <link rel="stylesheet" href="/css/font-awesome/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
 
-</div>
+
+
+    <body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top"><img src="/img/hcilab-logo.png" alt="UNB HCI Lab" class="header-logo" /></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="/#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="/#projects">Projects</a>
+                    </li>
+                    <li>
+                        <!--<a class="page-scroll" href="/publications/#publications">Publications</a>-->
+                        <a href="https://scholar.google.com/citations?hl=en&user=DV8i83MAAAAJ&view_op=list_works&sortby=pubdate">Publications</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="/#team">Team</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="/#join">Join Us</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="/#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Head graphic-->
+    <header>
+        <div class="container">
+            <div class="intro-text">
+                <div class="intro-lead-in">Faculty of Computer Science</div>
+                <div class="intro-heading">Human-Computer Interaction Lab</div>
+                <a href="#about" class="page-scroll btn btn-xl">Learn more</a>
+            </div>
+        </div>
+    </header>
+<!--
+        
+          
+        
+          
+        
+          
+        
+          
+        
+ -->
+
+
+    <!-- Services Section -->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">About</h2>
+                    <!--<h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>-->
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                        <p>
+                            We are a group of faculty, graduate and undergraduate students conducting research in the broad area of human-computer interaction (HCI). We are based in the <a href="http://www.cs.unb.ca/">Faculty of Computer Science</a> at the <a href="http://unb.ca">University of New Brunswick</a>, <a href="https://en.wikipedia.org/wiki/Fredericton">Fredericton, Canada</a>.
+                        </p>
+                        <p>
+                            We perform research in novel interactions, visualization and game technologies for therapy (e.g., rehab, training), collaborative technologies for work and play, and in creating interfaces that help people find and share information. Learn more by seeing our <a href="#projects">projects</a>. 
+                        </p>
+                </div>
+                <div class="col-lg-12">
+                        <h4 class="service-heading">Industrial Research and Development Collaborations</h4>
+                        <p>
+                            We have completed a wide-range of collaborations with industrial partners in areas related to web-based interactions, augmented reality, visual analytics, gamification, and mobile interfaces. We target partnerships with regional, national and international corporations that are looking for proof-of-concept or early demonstrations of technology. Typically our research contracts are funded (up to 100%) through funding agencies (NSERC, NBIF, MITACS, NRC, ACOA). Please <a href="#contact">contact us</a> if you would like to learn more about collaboration possibilities.
+                        </p>
+                      
+                </div>
+            </div>
+            <div class="row">
+                <br /><br />
+                <h4 class="section-subheading text-muted text-center">Our work is supported by...</h4>
+                
+                <div class="col-md-6 col-sm-6">
+                    <a href="http://www.nserc-crsng.gc.ca/index_eng.asp">
+                        <img src="img/logos/nserc.jpg" class="img-responsive img-centered support-logo" alt="nserc">
+                    </a>
+                </div>
+                
+                <div class="col-md-6 col-sm-6 support-logo">
+                    <a href="http://nbif.ca/en">
+                        <img src="img/logos/nbif.png" class="img-responsive img-centered support-logo" alt="nbif">
+                    </a>
+                </div>
+        
+            </div>
+                <!--
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">E-Commerce</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Responsive Design</h4>
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-lock fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Web Security</h4>
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                </div>
+            -->
+            </div>
+        </div>
+    </section>
+    <!-- Portfolio Grid Section -->
+    <section id="projects" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Projects</h2>
+                    <h3 class="section-subheading text-muted">These are some topics that we have currently been exploring, see <a href="#publications">publications</a> for a more complete listing.</h3>
+                </div>
+            </div>
+            <div class="row">
+            
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/therapy-thumbnail.jpg" class="img-responsive img-centered" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>HCI for Therapy</h4>
+                        <p class="text-muted">Movement and Game-Based Therapies</p>
+                    </div>
+                </div>
+            
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/collab-thumbnail.jpg" class="img-responsive img-centered" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Interactions for Collaborative Work and Play</h4>
+                        <p class="text-muted"></p>
+                    </div>
+                </div>
+            
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/info-thumbnail.jpg" class="img-responsive img-centered" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Information Sharing and Visualization</h4>
+                        <p class="text-muted"></p>
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">HCI Lab Members</h2>
+                </div>
+            </div>
+            <div class="row">
+                
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        
+                            <a href="http://scottbateman.ca">
+                        
+                        <img src="img/team/scott.jpg" class="img-responsive img-circle" alt="">
+
+                        
+                            </a>
+                        
+                        <h4>Scott Bateman</h4>
+                        <p class="text-muted two-line">Lab Director and Assistant Professor</p>
+                        <ul class="list-inline social-buttons">
+                            
+                                <li>
+                                    <a href="http://scottbateman.ca">
+                                        <i class="fa fa-globe"></i>
+                                    </a>
+                                </li>
+                            
+                            
+                            <li>
+                                <a href="https://twitter.com/scottbateman">
+                                    <i class="fa fa-twitter"></i>
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a href="https://www.linkedin.com/in/scottbateman/">
+                                    <i class="fa fa-linkedin"></i>
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a href="https://github.com/scottbateman">
+                                    <i class="fa fa-github"></i>
+                                </a>
+                            </li>
+                            
+
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        
+                        <img src="img/team/placeholder.jpg" class="img-responsive img-circle" alt="">
+
+                        
+                        <h4>Aaron Tabor</h4>
+                        <p class="text-muted two-line">MCS Student - Game-based Myoelectric Training</p>
+                        <ul class="list-inline social-buttons">
+                            
+                            
+                            <li>
+                                <a href="">
+                                    <i class="fa fa-linkedin"></i>
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a href="">
+                                    <i class="fa fa-github"></i>
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a href="">
+                                    <i class="fa fa-envelope"></i>
+                                </a>
+                            </li>
+                            
+
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        
+                        <img src="img/team/placeholder.jpg" class="img-responsive img-circle" alt="">
+
+                        
+                        <h4>Jason Wuertz</h4>
+                        <p class="text-muted two-line">MCS Student</p>
+                        <ul class="list-inline social-buttons">
+                            
+                            
+                            <li>
+                                <a href="">
+                                    <i class="fa fa-linkedin"></i>
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a href="">
+                                    <i class="fa fa-github"></i>
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a href="">
+                                    <i class="fa fa-envelope"></i>
+                                </a>
+                            </li>
+                            
+
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        
+                        <img src="img/team/placeholder.jpg" class="img-responsive img-circle" alt="">
+
+                        
+                        <h4>Jawad Jandali</h4>
+                        <p class="text-muted two-line">MCS Student</p>
+                        <ul class="list-inline social-buttons">
+                            
+                            
+                            <li>
+                                <a href="">
+                                    <i class="fa fa-linkedin"></i>
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a href="">
+                                    <i class="fa fa-github"></i>
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a href="">
+                                    <i class="fa fa-envelope"></i>
+                                </a>
+                            </li>
+                            
+
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        
+                        <img src="img/team/placeholder.jpg" class="img-responsive img-circle" alt="">
+
+                        
+                        <h4>Ian Smith</h4>
+                        <p class="text-muted two-line">MCS Student</p>
+                        <ul class="list-inline social-buttons">
+                            
+                            
+                            <li>
+                                <a href="">
+                                    <i class="fa fa-linkedin"></i>
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a href="">
+                                    <i class="fa fa-github"></i>
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a href="">
+                                    <i class="fa fa-envelope"></i>
+                                </a>
+                            </li>
+                            
+
+                        </ul>
+                    </div>
+                </div>
+                
+
+                <!-- collaborators -->
+                
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        
+                        <img src="img/team/placeholder.jpg" class="img-responsive img-circle" alt="">
+
+                        
+                        <h4>Erik Scheme</h4>
+                        <p class="text-muted two-line">Assistant Professor, Electrical Engineering, Institute of Biomedical Engineering</p>
+                        <ul class="list-inline social-buttons">
+                            
+                            
+                            <li>
+                                <a href="">
+                                    <i class="fa fa-linkedin"></i>
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a href="">
+                                    <i class="fa fa-github"></i>
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a href="">
+                                    <i class="fa fa-envelope"></i>
+                                </a>
+                            </li>
+                            
+
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        
+                        <img src="img/team/placeholder.jpg" class="img-responsive img-circle" alt="">
+
+                        
+                        <h4>Mike Fleming</h4>
+                        <p class="text-muted two-line">Associate Professor, Computer Science</p>
+                        <ul class="list-inline social-buttons">
+                            
+                            
+                            <li>
+                                <a href="">
+                                    <i class="fa fa-linkedin"></i>
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a href="">
+                                    <i class="fa fa-github"></i>
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a href="">
+                                    <i class="fa fa-envelope"></i>
+                                </a>
+                            </li>
+                            
+
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        
+                        <img src="img/team/placeholder.jpg" class="img-responsive img-circle" alt="">
+
+                        
+                        <h4>Tony Tang</h4>
+                        <p class="text-muted two-line">Associate Professor, University of Calgary</p>
+                        <ul class="list-inline social-buttons">
+                            
+                            
+                            <li>
+                                <a href="">
+                                    <i class="fa fa-linkedin"></i>
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a href="">
+                                    <i class="fa fa-github"></i>
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a href="">
+                                    <i class="fa fa-envelope"></i>
+                                </a>
+                            </li>
+                            
+
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        
+                        <img src="img/team/placeholder.jpg" class="img-responsive img-circle" alt="">
+
+                        
+                        <h4>Carl Gutwin</h4>
+                        <p class="text-muted two-line">Professor, University of Saskatchewan</p>
+                        <ul class="list-inline social-buttons">
+                            
+                            
+                            <li>
+                                <a href="">
+                                    <i class="fa fa-linkedin"></i>
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a href="">
+                                    <i class="fa fa-github"></i>
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a href="">
+                                    <i class="fa fa-envelope"></i>
+                                </a>
+                            </li>
+                            
+
+                        </ul>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="row">
+                <h3 class="section-heading">Alumni</h3>
+                
+                <div class="col-lg-2">
+                    <div class="team-member">
+                        
+                        <img src="img/team/placeholder.jpg" class="img-responsive img-circle" style="max-height: 100px" alt="">
+
+                        
+                        <h4>Nolan Phillips</h4>
+                        <p class="text-muted two-line">Senior Developer at Forestry.io</p>
+                        <ul class="list-inline social-buttons">
+                            
+                            
+
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col-lg-2">
+                    <div class="team-member">
+                        
+                        <img src="img/team/placeholder.jpg" class="img-responsive img-circle" style="max-height: 100px" alt="">
+
+                        
+                        <h4>Nguyen Cong Van</h4>
+                        <p class="text-muted two-line">Developer at Cdn. Inst. for Cybersecurity</p>
+                        <ul class="list-inline social-buttons">
+                            
+                            
+
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col-lg-2">
+                    <div class="team-member">
+                        
+                        <img src="img/team/placeholder.jpg" class="img-responsive img-circle" style="max-height: 100px" alt="">
+
+                        
+                        <h4>Alex Watson</h4>
+                        <p class="text-muted two-line">MCS Student at UNB</p>
+                        <ul class="list-inline social-buttons">
+                            
+                            
+
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col-lg-2">
+                    <div class="team-member">
+                        
+                        <img src="img/team/placeholder.jpg" class="img-responsive img-circle" style="max-height: 100px" alt="">
+
+                        
+                        <h4>Alex Kienzle</h4>
+                        <p class="text-muted two-line">BCS Student at UNB</p>
+                        <ul class="list-inline social-buttons">
+                            
+                            
+
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col-lg-2">
+                    <div class="team-member">
+                        
+                        <img src="img/team/placeholder.jpg" class="img-responsive img-circle" style="max-height: 100px" alt="">
+
+                        
+                        <h4>Carly Smith</h4>
+                        <p class="text-muted two-line">Software Engineer at LiveOps</p>
+                        <ul class="list-inline social-buttons">
+                            
+                            
+
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col-lg-2">
+                    <div class="team-member">
+                        
+                        <img src="img/team/placeholder.jpg" class="img-responsive img-circle" style="max-height: 100px" alt="">
+
+                        
+                        <h4>David Hanna</h4>
+                        <p class="text-muted two-line">BSc Student - UPEI</p>
+                        <ul class="list-inline social-buttons">
+                            
+                            
+
+                        </ul>
+                    </div>
+                </div>
+                
+            </div>
+            <!--
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
+                </div>
+            </div>-->
+        </div>
+    </section>
+    <!-- Services Section -->
+    <section id="join" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2 class="section-heading">Join Us</h2>
+                    <h3 class="section-subheading text-muted"></h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                      <p>If you are interested in working with us, we are always looking for students and collaborators who are excited and passionate about developing new ideas and technology. We currently are looking for graduate students at both the Master's and PhD level. Please contact Scott Bateman using the details below if you are interested or would like more information.</p>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Contact Us</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 col-md-offset-1" style="color: white">
+                    <p>email: <a href="mailto: scottb@unb.ca">scottb@unb.ca</a></p>
+
+                    <p>phone: +1 (506) 447-3336</p>
+
+                    <p>Scott Bateman<br />
+                    Faculty of Computer Science<br />
+                    550 Windsor Street<br />
+                    Fredericton, NB<br />
+                    E3B 5A3</p>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="google-maps">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5946.692978588098!2d-66.64340701807443!3d45.94669933048932!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x64f17146ff9984f2!2sFaculty+of+Computer+Science!5e0!3m2!1sen!2sca!4v1492877843066" frameborder="0" style="border:0; width: inherit; height: inherit" allowfullscreen></iframe>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+      <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <span class="copyright">Copyright &copy; UNB HCI Lab 2017</span>
+                </div>
+                
+                <div class="col-md-8 text-right">
+                    <ul class="list-inline quicklinks">
+                        <li><a href="http://www.cs.unb.ca">Faculty of Computer Science</a>
+                        </li>
+                        <li>-</li>
+                        <li><a href="http://www.unb.ca">University of New Brunswick</a>
+                        </li>            
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+     <!-- Portfolio Modals -->
+ 
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body" align="center">
+                            <h2>HCI for Therapy</h2>
+                            <hr class="star-primary">
+                            
+                            <p></p>
+
+
+                            
+                                <h3>Game-Based Myo-Electric Training</h3>
+                                <iframe width="400" height="225" src="https://www.youtube.com/embed/Vkfi1--r1tU" frameborder="0" allowfullscreen></iframe>
+                                <br /><br />
+
+                            
+                            
+                                <h3>Visual Guidance for Physiotherapy</h3>
+                                <iframe width="400" height="225" src="https://www.youtube.com/embed/PE49fDbw-58" frameborder="0" allowfullscreen></iframe>
+                                <br /><br />
+                            
+                            
+                            
+                            <br /><br /><br /><br />
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body" align="center">
+                            <h2>Interactions for Collaborative Work and Play</h2>
+                            <hr class="star-primary">
+                            
+                            <p></p>
+
+
+                            
+                                <h3>Input Assistance for Game Balancing</h3>
+                                <iframe width="400" height="225" src="https://www.youtube.com/embed/FzVDZ1SX2vE" frameborder="0" allowfullscreen></iframe>
+                                <br /><br />
+
+                            
+                            
+                                <h3></h3>
+                                <iframe width="400" height="225" src="https://www.youtube.com/embed/dXUVh6IHER8" frameborder="0" allowfullscreen></iframe>
+                                <br /><br />
+                            
+                            
+                                <h3>Interactions and Augmented Reality for Video Collaboration</h3>
+                                <iframe width="400" height="225" src="https://www.youtube.com/embed/na9OBQiVjLk?time_continue=292" frameborder="0" allowfullscreen></iframe>
+                                <br /><br />
+                            
+                            
+                                <h3></h3>
+                                <iframe width="400" height="225" src="https://www.youtube.com/embed/4bS8MsyZKwE" frameborder="0" allowfullscreen></iframe>
+                                <br /><br />
+                            
+                            <br /><br /><br /><br />
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body" align="center">
+                            <h2>Information Sharing and Visualization</h2>
+                            <hr class="star-primary">
+                            
+                            <p></p>
+
+
+                            
+                                <h3>Personal Visualization</h3>
+                                <iframe width="400" height="225" src="https://player.vimeo.com/video/136210716" frameborder="0" allowfullscreen></iframe>
+                                <br /><br />
+
+                            
+                            
+                                <h3>Supporting Loose Collaborative Information Seeking</h3>
+                                <iframe width="400" height="225" src="https://www.youtube.com/embed/wby4-YnEzE4" frameborder="0" allowfullscreen></iframe>
+                                <br /><br />
+                            
+                            
+                                <h3></h3>
+                                <iframe width="400" height="225" src="https://www.youtube.com/embed/rsfc_DXz4YA" frameborder="0" allowfullscreen></iframe>
+                                <br /><br />
+                            
+                            
+                            <br /><br /><br /><br />
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+     <!-- jQuery Version 1.11.0 -->
+    <script src="/js/jquery-1.11.0.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="/js/jquery.easing.min.js"></script>
+    <script src="/js/classie.js"></script>
+    <script src="/js/cbpAnimatedHeader.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="/js/jqBootstrapValidation.js"></script>
+    <script src="/js/contact_me.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="/js/agency.js"></script>
+
+
+    </body>
+</html>
