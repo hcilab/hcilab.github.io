@@ -314,9 +314,9 @@ header .intro-text .intro-lead-in {
 header .intro-text .intro-heading {
     margin-bottom: 25px;
     text-transform: uppercase;
-    font-family: "Proxima Nova", Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "lato";
     font-size: 50px;
-    font-weight: 700;
+    font-weight: 500;
     line-height: 50px;
 }
 
