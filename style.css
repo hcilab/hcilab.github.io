@@ -133,12 +133,12 @@ fieldset[disabled] .btn-primary.active {
 }
 
 .btn-xl {
-    padding: 20px 40px;
+    padding: 10px 15px;
     border-color: #f00000;
-    border-radius: 3px;
+    border-radius: 7px;
     text-transform: uppercase;
     font-family: "Proxima Nova", Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 700;
     color: #fff;
     background-color: #f00000;
@@ -332,7 +332,7 @@ header .intro-text .intro-heading {
     header .intro-text .intro-lead-in {
         margin-bottom: 25px;
         font-family: "futura";
-        font-size: 40px;
+        font-size: 30px;
         font-style: normal;
         line-height: 40px;
     }
