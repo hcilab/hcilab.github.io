@@ -135,8 +135,7 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl {
     padding: 10px 15px;
     border-color: #f00000;
-    border-radius: 7px;
-    text-transform: uppercase;
+    border-radius: 20px;
     font-family: "Proxima Nova", Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 15px;
     font-weight: 700;
