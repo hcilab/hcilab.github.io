@@ -1,3 +1,7 @@
+---
+# Enabling liquid
+---
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -9,7 +13,7 @@
       content="The Human-Computer Interaction Lab at the University of New Brunswick in Fredericton, Canada."
     />
 
-    <title>Join Us | UNB HCI Lab</title>
+    <title>Publications | UNB HCI Lab</title>
 
     <link rel="canonical" href="https://hcilab.github.io/" />
     <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
@@ -83,15 +87,13 @@
             <li>
               <a class="page-scroll" href="/#projects">Projects</a>
             </li>
-            <li>
-              <a class="page-scroll" href="/publications/#publications"
-                >Publications</a
-              >
+            <li class="active">
+              <a class="page-scroll" href="/publications">Publications</a>
             </li>
             <li>
               <a class="page-scroll" href="/#team">Team</a>
             </li>
-            <li class="active">
+            <li>
               <a class="page-scroll" href="/#join">Join Us</a>
             </li>
             <li>
@@ -108,99 +110,78 @@
     <header>
       <div class="container">
         <div class="intro-text">
-          <div class="intro-heading">Join Us</div>
+          <div class="intro-heading">Publications</div>
         </div>
       </div>
     </header>
 
-    <!-- Services Section -->
+    <!-- Publications Section -->
     <section>
       <div class="container">
         <div class="row">
-          <div class="col-lg-12">
-            <p>
-              University of New Brunswick’s Human-Computer Interaction Lab is
-              looking for new graduate Computer Science students (Master’s or
-              PhD) to join the group. Applications are due in January for the
-              following summer or fall semester (but earlier contact is
-              preferable). View UNB’s
-              <a
-                href="https://www.unb.ca/gradstudies/admissions/index.html"
-                target="_blank"
-                >prospective students page</a
-              >
-              for more information. Positions are highly competitive, and based
-              on your background, previous performance, and demonstrated
-              interest and skill match in our current or past projects.
-            </p>
-            <p>
-              Interested applicants should email <b>scottb@unb.ca</b> to discuss
-              their application before applying to UNB. Emails should be sent to
-              Dr. Bateman between September and January for entrance in the
-              upcoming fall or (typically students outside of Canada are not
-              able to get immigration sorted before the fall semester).
-              Inquiries sent outside of this time window will generally not
-              receive a response.
-            </p>
-            <p>
-              The email should include the following four items (failure to
-              include one or more will mean your email might not get a reply):
-            </p>
-            <ol>
-              <li>
-                a description of research interests related to the lab’s
-                existing research; you need to show clear evidence that you have
-                actually looked at the types of research the lab does
-              </li>
-              <li>
-                a curriculum vitae
-              </li>
-              <li>
-                a copy of your unofficial transcript
-              </li>
-              <li>
-                a paragraph describing what you like to do for fun (your hobby
-                or a pastime), and what you like about it
-              </li>
-            </ol>
-            <p>
-              Once you have discussed your interest in joining HCI Lab with Dr.
-              Bateman, you will follow the University of New Brunswick graduate
-              student
-              <a
-                href="https://www.unb.ca/gradstudies/admissions/index.html"
-                target="_blank"
-                >application process</a
-              >.
-            </p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-12">
-            <h2>Who are we looking for?</h2>
-            <p>
-              We are looking for programmers, designers and UX researchers. In
-              order to be considered you must have:
-            </p>
-            <ul>
-              <li>
-                a Bachelor or Master’s degree in computer science, HCI or
-                related fields with a minimum GPA of B+.
-              </li>
-              <li>
-                strong programming proficiency in technology relevant to the
-                work in the HCI Lab (for example, game development, virtual or
-                augmented reality development, mobile phone and/or web
-                development).
-              </li>
-              <li>
-                good written and oral communication skills
-              </li>
-              <li>
-                a demonstration of strong interest in the projects you have
-                engaged with
-              </li>
-            </ul>
+          <div class="col-lg-10 col-lg-offset-1">
+            {% for post in site.publications reversed %}
+              {% if post.header.teaser %}
+                {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
+              {% else %}
+                {% assign teaser = site.teaser %}
+              {% endif %}
+
+              {% if post.id %}
+                {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+              {% else %}
+                {% assign title = post.title %}
+              {% endif %}
+
+              <div class="{{ include.type | default: "list" }}__item">
+                <article style="display: flex;" class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+                  {% if teaser %}
+                    <div style="margin-right: 32px;">
+                      <img src="{{ teaser | prepend: "/images/" | prepend: base_path }}" alt="" width="128px">
+                    </div>
+                  {% endif %}
+                  {% if include.type == "grid" and teaser %}
+                    <!-- <div class="archive__item-teaser">
+                      <img src=
+                        {% if teaser contains "://" %}
+                          "{{ teaser }}"
+                        {% else %}
+                          "{{ teaser | prepend: "/images/" | prepend: base_path }}"
+                        {% endif %}
+                        alt="">
+                    </div> -->
+                  {% endif %}
+                  <div>
+                    <h2 style="text-decoration: none;" class="archive__item-title" itemprop="headline">
+                      {{title}}
+                    </h2>
+                    {% if post.read_time %}
+                      <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
+                    {% endif %}
+                    {% if post.collection == 'teaching' %}
+                      <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
+                    {% elsif post.collection == 'publications' %}
+                      <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
+                    {% elsif post.date %}
+                      <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
+                    {% endif %}
+
+                    {% if post.excerpt and site.read_more != 'enabled' %}
+                      <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
+                    {% elsif post.excerpt and site.read_more == 'enabled' %}
+                      <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
+                    {% endif %}
+                    <!-- {% if post.citation and post.paperurl %}
+                      <p>Recommended citation: {{ post.citation }} <a href="{{ post.paperurl }}"><u>{{ post.paperurl }}</u></a></p>
+                    {% elsif post.citation %}
+                      <p>Recommended citation: {{ post.citation }} </p>
+                    {% elsif post.paperurl %}
+                      <p>Download <a href=" {{ post.paperurl }} "><u>here</u></a></p>
+                    {% endif %} -->
+                  </div>
+                </article>
+              </div>
+            {% endfor %}
           </div>
         </div>
       </div>
