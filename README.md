@@ -36,3 +36,5 @@ This site uses a modified version of the **Agency Jekyll Theme**
 To edit/add members, projects, or some other site settings, you can do so via the **_config.yml** file. This won't update live when you serve the jekyll site, so just ctrl+c on the terminal and re-run the serve command if you update anything here.
 
 Publications should auto populate based on what is in _publications folder.
+
+Note: When building locally, resources and links/anchors will work appropriately, however if pushing to a private fork of the repository on your own github account, they may not. Any url's or anchors from say, the nav bar, will require you to put manually into the url /hcilab.github.io after your username.github.io. Some resources won't be located such as if they are in the CSS file, unless it's rendered as a variable coming from _config.yml.
