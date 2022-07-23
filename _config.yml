@@ -38,9 +38,12 @@ collections:
 
 defaults:
   user_image: img/team/placeholder.jpg
+  style: style.css
+  fontawesome: css/font-awesome/css/font-awesome.min.css
 
 settings:
     alumni_socials: false
+
     
 # Projects    
 projects:
