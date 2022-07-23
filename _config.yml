@@ -35,3 +35,363 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
+
+defaults:
+  user_image: img/team/placeholder.jpg
+
+settings:
+    alumni_socials: false
+    
+# Projects    
+projects:
+    - title: Therapy
+      display: true
+      image: img/portfolio/therapy-thumbnail.jpg
+      caption: HCI for Therapy
+      description: Movement and Game-Based Therapies
+      id: 1
+      modal:
+        - details: Game-Based Myo-Electric Training
+          iframe:
+            url: https://www.youtube.com/embed/Vkfi1--r1tU
+        - details: Visual Guidance for Physiotherapy
+          iframe:
+            url: https://www.youtube.com/embed/PE49fDbw-58
+    - title: Collab
+      display: true
+      image: img/portfolio/collab-thumbnail.jpg
+      caption: Interactions for Collaborative Work and Play
+      description:
+      id: 2
+      modal:
+        - details: Input Assistance for Game Balancing
+          iframe:
+            url: https://www.youtube.com/embed/FzVDZ1SX2vE
+        - details: 
+          iframe: 
+            url: https://www.youtube.com/embed/dXUVh6IHER8
+        - details: Interactions and Augmented Reality for Video Collaboration
+          iframe:
+            url: https://www.youtube.com/embed/na9OBQiVjLk?time_continue=292
+        - details:
+          iframe:
+            url: https://www.youtube.com/embed/4bS8MsyZKwE
+    - title: Info
+      display: true
+      image: img/portfolio/info-thumbnail.jpg
+      caption: Information Sharing and Visualization
+      description:
+      id: 3
+      modal:
+        - details: Personal Visualization
+          iframe:
+            url: https://player.vimeo.com/video/136210716
+        - details: Supporting Loose Collaborative Information Seeking
+          iframe:
+            url: https://www.youtube.com/embed/wby4-YnEzE4
+        - details:
+          iframe:
+            url: https://www.youtube.com/embed/rsfc_DXz4YA
+    
+# Team
+members:
+    team:
+      - name: Scott Bateman
+        role: Lab Co-Director and Associate Professor
+        website: http://scottbateman.ca
+        image: img/team/scott_bateman.jpeg
+        social:
+          - title: Website
+            url: http://scottbateman.ca
+            icon: fa fa-globe
+          - title: Twitter
+            url: https://twitter.com/scottbateman
+            icon: fa fa-twitter
+          - title: LinkedIn
+            url: https://www.linkedin.com/in/scottbateman/
+            icon: fa fa-linkedin
+          - title: GitHub
+            url: https://github.com/scottbateman
+            icon: fa fa-github
+      - name: Daniel J. Rea
+        role: Lab Co-Director and Assistant Professor
+        website: http://djrea.ca
+        image: img/team/djrea.jpg
+        social:
+          - title: Website
+            url: http://djrea.ca
+            icon: fa fa-globe
+          - title: Twitter
+            url: https://twitter.com/bitbytechomp
+            icon: fa fa-twitter
+          - title: LinkedIn
+            url: https://www.linkedin.com/in/daniel-rea-94279a47/
+            icon: fa fa-linkedin
+          - title: GitHub
+            url: https://github.com/djrea
+            icon: fa fa-github
+      - name: Connor Wilson
+        role: PhD Student/Lab Manager - CS Education
+        website: 
+        image: img/team/Connor.jpeg
+        social:
+          - title: LinkedIn
+            url: https://www.linkedin.com/in/connor-wilson-718a6216b/
+            icon: fa fa-linkedin
+          - title: GitHub
+            url: https://github.com/gogenogo
+            icon: fa fa-github
+          - title: Email
+            url: mailto:connor.wilson@unb.ca
+            icon: fa fa-envelope
+      - name: Aaron Tabor
+        role: PhD Student - Guided Breathing Technologies
+        website: 
+        image: img/team/aaron-tabor2018.png
+        social:
+          - title: LinkedIn
+            url: https://www.linkedin.com/in/aaron-tabor-681b5968/
+            icon: fa fa-linkedin
+          - title: GitHub
+            url: https://github.com/aarontabor
+            icon: fa fa-github
+          - title: Email
+            url: mailto:aaron.tabor@unb.ca
+            icon: fa fa-envelope
+      - name: Ian Smith
+        role: PhD Student - HCI in Sports
+        website: 
+        image: img/team/ian_smith.jpeg
+        social:
+          - title: LinkedIn
+            url: https://www.linkedin.com/in/ian-smith-41a9b497
+            icon: fa fa-linkedin
+          - title: Email
+            url: mailto:iansmith.bwr@unb.ca
+            icon: fa fa-envelope
+      - name: Ethan Eddy
+        role: MSc.E. Student - Game-Based Training for EMG Pattern Recognition Prosthetics
+        website: 
+        image: img/team/ethan.jpg
+        social:
+          - title: Email
+            url: mailto:eeddy@unb.ca
+            icon: fa fa-envelope
+      - name: Jason Chang
+        role: MSc.E. Student - Gestures Identification for EMG Input
+        website: 
+        image: img/team/jason_chang.png
+        social:
+          - title: LinkedIn
+            url: https://www.linkedin.com/in/jason-chang-556623152/
+            icon: fa fa-linkedin
+          - title: Email
+            url: mailto:jchang@unb.ca
+            icon: fa fa-envelope
+      - name: Book Sadprasid
+        role: BCS Student
+        website:
+        image: img/team/book_sadprasid.jpg
+        social:
+          - title: Twitter
+            url: https://twitter.com/BookSadprasid
+            icon: fa fa-twitter
+          - title: LinkedIn
+            url: https://www.linkedin.com/in/bookkaraalexa/
+            icon: fa fa-linkedin
+          - title: GitHub
+            url: https://github.com/BookSadprasid
+            icon: fa fa-github
+      - name: Alexander LeBlanc
+        role: MCS Student - Game Design
+        website: 
+        image: img/team/alexleblanc.jpg
+        social:
+          - title: LinkedIn
+            url: https://www.linkedin.com/in/alexander-leblanc-7ba9b9100/
+            icon: fa fa-linkedin
+          - title: Email
+            url: mailto:alexanderleblanc21@gmail.com
+            icon: fa fa-envelope
+      - name: Nick Balcomb
+        role: MCS Student - Interaction and Representation in XR
+        website: 
+        image: img/team/NickBalcomb.png
+        social:
+          - title: LinkedIn
+            url: https://www.linkedin.com/in/nicholas-balcomb-0684b5134/
+            icon: fa fa-linkedin
+          - title: GitHub
+            url: https://github.com/WolfwithSword
+            icon: fa fa-github
+          - title: Email
+            url: mailto:nickfebalcomb@gmail.com
+            icon: fa fa-envelope
+      - name: David Hanna
+        role: MCS Student - Game Development Tools
+        website: 
+        image:
+        social:
+      - name: Joshua Robjets
+        role: MCS Student - Games and MR
+        website: https://joshuas-portfolio-2.jimdosite.com/
+        image: img/team/joshroberts.jpg
+        social:
+          - title: Website
+            url: https://joshuas-portfolio-2.jimdosite.com/
+            icon: fa fa-globe
+          - title: LinkedIn
+            url: https://www.linkedin.com/in/joshua-roberts-a8b295161/
+            icon: fa fa-linkedin
+      - name: Mike Flemming
+        role: Professor, Computer Science
+        website: 
+        image: img/team/mwf_headshot2.jpg
+        social:
+          - title: Email
+            url: mailto:mwf@unb.ca
+            icon: fa fa-envelope
+      - name: Eric Scheme
+        role: Associate Professor, Electrical Engineering, Institute of Biomedical Engineering
+        website: 
+        image: img/team/Erik.png
+        social:
+          - title: Email
+            url: mailto:escheme@unb.ca
+            icon: fa fa-envelope
+      - name: Carl Gutwin
+        role: Professor, University of Saskatchewan
+        website: 
+        image: img/team/carl_gutwin.png
+        social:
+          - title: Email
+            url: mailto:gutwin@cs.usask.ca
+            icon: fa fa-envelope
+      - name: Tony Tang
+        role: Associate Professor, University of Toronto
+        website: 
+        image: img/team/Tony.png
+        social:
+        
+    alumni:
+      - name: Samridhi Pargal
+        role: XR Developer - Spandrel Interactive
+        website:
+        image: img/team/SamridhiPargal.jpg
+        social:
+      - name: Michael Walz
+        role: Medical Student - Memorial University
+        website:
+        image: img/team/michael_walz.jpeg
+        social:
+      - name: Alex Kienzle
+        role: Software Developer - Kognitiv Spark
+        image: img/team/alex_kienzle.png
+        social:
+          - title: LinkedIn
+            url: https://www.linkedin.com/in/alex-kienzle-21a7b5131/
+            icon: fa fa-linkedin
+          - title: GitHub
+            url: https://github.com/AlexKienzle
+            icon: fa fa-github
+          - title: Email
+            url: mailto:alexkienzle@hotmail.com
+            icon: fa fa-envelope
+      - name: Isayah Vidito
+        role: Software Developer - Terris
+        image: img/team/Isayah.jpeg
+        social:
+          - title: LinkedIn
+            url: https://www.linkedin.com/in/isayah-vidito-93b758139/
+            icon: fa fa-linkedin
+          - title: GitHub
+            url: https://github.com/ividito
+            icon: fa fa-github
+          - title: Email
+            url: mailto:ividito@unb.ca
+            icon: fa fa-envelope
+      - name: Benjamin MacPherson
+        role: Leading VR Startup
+        image: img/team/Ben.jpg
+        social:
+          - title: Email
+            url: mailto:ben.r.macpherson@gmail.com
+            icon: fa fa-envelope
+      - name: Reyhan Pradantyo
+        role:
+        website:
+        image: img/team/Reyhan HCI.jpg
+        social:
+      - name: Vinod Asokan
+        role: Software Developer at Kognitiv Spark
+        website:
+        image: img/team/vinod_asokan.jpg
+        social:
+      - name: Noor Ali
+        role: Software Developer - IBME
+        website:
+        image:
+        social:
+      - name: Nikita Baliesnyi
+        role: MCS Student - University of Tartu
+        website:
+        image: img/team/Nikita.png
+        social:
+      - name: Wesley Finck
+        role: Crypto Researcher
+        website:
+        image:
+        social:
+      - name: Nathaniel Brewer
+        role: Software Developer & UX Designer at Onset Communication
+        website:
+        image: img/team/Nathaniel.png
+        social:
+      - name: Manasi Shah
+        role: Software Developer at IBM
+        website:
+        image: img/team/Manasi.png
+        social:
+      - name: Jawad Refai
+        role: Software Engineer at Kabam
+        website:
+        image: img/team/Jawad.png
+        social:
+      - name: Jason Wuertz
+        role: Web Architect & UX Designer at Deltaware
+        website:
+        image: img/team/JasonW.png
+      - name: Nathan Sonier
+        role: Software Developer - Beauceron
+        website:
+        image: 
+        social:
+      - name: Nolan Philips
+        role: Senior Developer at CareGuide
+        website:
+        image: 
+        social:
+      - name: Alex Watson
+        role: Data Scientist, SG2B
+        website:
+        image: 
+        social:
+      - name: Carly Smith
+        role: Senior Software Engineer, Salesforce
+        website:
+        image: 
+        social:
+      
+    
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
