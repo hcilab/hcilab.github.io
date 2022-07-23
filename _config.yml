@@ -40,6 +40,8 @@ defaults:
   user_image: img/team/placeholder.jpg
   style: style.css
   fontawesome: css/font-awesome/css/font-awesome.min.css
+  background_image: img/cover-unb.jpg
+  map_image: img/map-image.png
 
 settings:
     alumni_socials: false
