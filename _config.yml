@@ -22,7 +22,7 @@ description: > # this means to ignore newlines until "baseurl:"
   We are based in the Faculty of Computer Science, at the University of New Brunswick, Fredericton, Canada.
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+url: "https://hcilab.github.io/" # the base hostname & protocol for your site
 twitter_username: scottbateman
 github_username: hcilab
 
