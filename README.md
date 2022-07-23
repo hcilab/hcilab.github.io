@@ -19,7 +19,9 @@ Run:
 `bundle update github-pages`
 `bundle install`
 
-If an error appears, run `gem install nokogiri` then the two lines above.
+If an error appears, run `gem install nokogiri` then the two lines above. This should already work with the above, but just in case.
+
+Additionally, due to using Ruby 3 and some of these "gems", in order to build and serve it locally, we had to add webrick to the gemfile. Do not remove this.
 
 To locally serve and test:
 `bundle exec jekyll serve`
