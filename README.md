@@ -5,11 +5,17 @@ The webpage for the UNB HCI Lab.
 ## Maintaining and Editing
 
 ### Requirements
+
 Ruby - https://rubyinstaller.org/downloads/
+
 RubyGEMs - https://rubygems.org/pages/download
+
 Jekyll - https://jekyllrb.com/docs/installation/
+
 Bundler - https://bundler.io/
+
 CMake and/or Make seem to not be real requirements.
+
 
 Guide: https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll
 
