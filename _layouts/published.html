@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width" />
+    <meta
+      name="description"
+      content="The Human-Computer Interaction Lab at the University of New Brunswick in Fredericton, Canada."
+    />
+
+    <title>Publications | UNB HCI Lab</title>
+
+    <link rel="canonical" href="{{site.url}}" />
+    <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+    <link rel="stylesheet" href="{{site.defaults.style}}">
+    <!-- Custom Fonts -->
+    <link rel="stylesheet" href="{{site.defaults.fontawesome}}" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Kaushan+Script"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body id="page-top" class="index">
+    
+      {% include nav.html %}
+  
+      <!-- Head graphic-->
+      <header>
+        <div class="container">
+          <div class="intro-text">
+            <div class="intro-heading">Publications</div>
+          </div>
+        </div>
+      </header>
+
+    <!-- Publications Section -->
+    {% include publications_list.html %}
+
+    {% include footer.html %}
+  </body>
+</html>

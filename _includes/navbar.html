@@ -1,0 +1,49 @@
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+            <li class="hidden">
+                <a href="#page-top"></a>
+            </li>
+            {% if page.url != "/" %}
+            <li>
+                <a class="page-scroll" href="/#about">About</a>
+            </li>
+            <li>
+                <a class="page-scroll" href="/#projects">Projects</a>
+            </li>
+            <li>
+                <a class="page-scroll" href="/publications.html">Publications</a>
+            </li>
+            <li>
+                <a class="page-scroll" href="/#team">Team</a>
+            </li>
+            <li>
+                <a class="page-scroll" href="/join-us">Join Us</a>
+            </li>
+            <li>
+                <a class="page-scroll" href="/#contact">Contact</a>
+            </li>
+            {% else %}
+            <li>
+                <a class="page-scroll" href="#about">About</a>
+            </li>
+            <li>
+                <a class="page-scroll" href="#projects">Projects</a>
+            </li>
+            <li>
+                <a class="page-scroll" href="/publications.html">Publications</a>
+            </li>
+            <li>
+                <a class="page-scroll" href="#team">Team</a>
+            </li>
+            <li>
+                <a class="page-scroll" href="/join-us">Join Us</a>
+            </li>
+            <li>
+                <a class="page-scroll" href="#contact">Contact</a>
+            </li>
+            {% endif %}
+        </ul>
+    </div>
+    <!-- /.navbar-collapse -->
