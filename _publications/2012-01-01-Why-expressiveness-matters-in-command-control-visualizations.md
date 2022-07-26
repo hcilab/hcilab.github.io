@@ -5,6 +5,5 @@ permalink: /publication/2012-01-01-Why-expressiveness-matters-in-command-control
 date: 2012-01-01
 venue: 'Guest Editors'
 citation: ' Aaron Genest,  Scott Bateman,  Anthony Tang,  Stacey Scott,  Carl Gutwin, &quot;Why expressiveness matters in command &amp;amp; control visualizations.&quot; Guest Editors, 2012.'
-authors: 'Aaron Genest,  Scott Bateman,  Anthony Tang,  Stacey Scott,  Carl Gutwin'
 ---
-See on [Google Scholar](https://scholar.google.com/scholar?q=Why+expressiveness+matters+in+command+&amp;+control+visualizations){:target="_blank"}
+Use [Google Scholar](https://scholar.google.com/scholar?q=Why+expressiveness+matters+in+command+&amp;+control+visualizations){:target="_blank"} for full citation
