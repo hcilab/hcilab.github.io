@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: UNB HCI Lab
-email: scottb@unb.ca
+email: scottb@unb.ca;drea1@unb.ca
 description: > # this means to ignore newlines until "baseurl:"
   We are a group of researchers interested in Human-Computer Interaction.
   We are interested in building and evaluating new technologies, and understanding the
@@ -23,7 +23,7 @@ description: > # this means to ignore newlines until "baseurl:"
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://hcilab.github.io/" # the base hostname & protocol for your site
-twitter_username: scottbateman
+twitter_username: unbhci 
 github_username: hcilab
 
 # Build settings
@@ -386,6 +386,7 @@ members:
         website:
         image: 
         social:
+
       
     
         
