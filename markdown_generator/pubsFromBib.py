@@ -53,6 +53,10 @@ html_escape_table = {
 def html_escape(text):
     """Produce entities within text."""
     return "".join(html_escape_table.get(c,c) for c in text)
+    
+def clean_author(author):
+    """Produce author name with basic characters only."""
+    return author.replace("\\v","").replace("{","").replace("}","").replace("'","").replace("\\","")
 
 
 for pubsource in publist:
@@ -89,7 +93,7 @@ for pubsource in publist:
             pub_date = pub_year+"-"+pub_month+"-"+pub_day
             
             #strip out {} as needed (some bibtex entries that maintain formatting)
-            clean_title = b["title"].replace("{", "").replace("}","").replace("\\","").replace(" ","-")    
+            clean_title = b["title"].replace("{", "").replace("}","").replace("\\","").replace(" ","-")
 
             url_slug = re.sub("\\[.*\\]|[^a-zA-Z0-9_-]", "", clean_title)
             url_slug = url_slug.replace("--","-")
@@ -105,7 +109,7 @@ for pubsource in publist:
             for author in bibdata.entries[bib_id].persons["author"]:
                 print(author)
                 citation = citation+" "+author.first_names[0]+" "+author.last_names[0]+", "
-                authors_list.append(author.first_names[0]+" "+author.last_names[0])
+                authors_list.append(  clean_author(author.first_names[0]+" "+author.last_names[0])  )
             authors = ", ".join(authors_list)
 
             #citation title
@@ -143,7 +147,7 @@ for pubsource in publist:
 
             md += "\ncitation: '" + html_escape(citation) + "'"
             
-            md += "\nauthors: '" + html_escape(authors) + "'"
+            md += "\nauthors: '" + authors + "'"
             
             md += "\n---"
 
@@ -159,7 +163,7 @@ for pubsource in publist:
 
             md_filename = os.path.basename(md_filename)
 
-            with open("../_publications/" + md_filename, 'w') as f:
+            with open("../_publications/" + md_filename, 'w', encoding='utf-8') as f:
                 f.write(md)
             print(f'SUCESSFULLY PARSED {bib_id}: \"', b["title"][:60],"..."*(len(b['title'])>60),"\"")
         # field may not exist for a reference
