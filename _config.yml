@@ -360,16 +360,16 @@ members:
         image: 
         social:
       - name: Joshua Roberts
-      role: Software Developer - Kognitiv Spark
-      website: https://joshuas-portfolio-2.jimdosite.com/
-      image: img/team/joshroberts.jpg
-      social:
-        - title: Website
-          url: https://joshuas-portfolio-2.jimdosite.com/
-          icon: fa fa-globe
-        - title: LinkedIn
-          url: https://www.linkedin.com/in/joshua-roberts-a8b295161/
-          icon: fa fa-linkedin
+        role: Software Developer - Kognitiv Spark
+        website: https://joshuas-portfolio-2.jimdosite.com/
+        image: img/team/joshroberts.jpg
+        social:
+          - title: Website
+            url: https://joshuas-portfolio-2.jimdosite.com/
+            icon: fa fa-globe
+          - title: LinkedIn
+            url: https://www.linkedin.com/in/joshua-roberts-a8b295161/
+            icon: fa fa-linkedin
 
       
     
