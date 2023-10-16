@@ -1,10 +1,9 @@
 ---
-title: "TanGi: Tangible Proxies for Embodied Object Exploration and Manipulation in Virtual Reality"
+title: "Tangi: Tangible proxies for embodied object exploration and manipulation in virtual reality"
 collection: publications
-permalink: /publication/2020-01-01-TanGi-Tangible-Proxies-for-Embodied-Object-Exploration-and-Manipulation-in-Virtual-Reality
+permalink: /publication/2020-01-01-Tangi-Tangible-proxies-for-embodied-object-exploration-and-manipulation-in-virtual-reality
 date: 2020-01-01
 venue: 'In the proceedings of 2020 IEEE International Symposium on Mixed and Augmented Reality (ISMAR)'
-citation: ' Martin Feick,  Scott Bateman,  Anthony Tang,  Andr{\&apos;e} Miede,  Nicolai Marquardt, &quot;TanGi: Tangible Proxies for Embodied Object Exploration and Manipulation in Virtual Reality.&quot; In the proceedings of 2020 IEEE International Symposium on Mixed and Augmented Reality (ISMAR), 2020.'
-authors: 'Martin Feick,  Scott Bateman,  Anthony Tang,  Andr{\&apos;e} Miede,  Nicolai Marquardt'
+citation: ' Martin Feick,  Scott Bateman,  Anthony Tang,  Andr{\&apos;e} Miede,  Nicolai Marquardt, &quot;Tangi: Tangible proxies for embodied object exploration and manipulation in virtual reality.&quot; In the proceedings of 2020 IEEE International Symposium on Mixed and Augmented Reality (ISMAR), 2020.'
 ---
-See on [Google Scholar](https://scholar.google.com/scholar?q=TanGi:+Tangible+Proxies+for+Embodied+Object+Exploration+and+Manipulation+in+Virtual+Reality){:target="_blank"}
+Use [Google Scholar](https://scholar.google.com/scholar?q=Tangi:+Tangible+proxies+for+embodied+object+exploration+and+manipulation+in+virtual+reality){:target="_blank"} for full citation
