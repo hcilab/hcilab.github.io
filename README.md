@@ -1,5 +1,5 @@
 # hcilab.github.io
-The webpage for the UNB HCI Lab.
+The webpage for the UNB HCI Lab: https://hcilab.github.io
 
 
 ## Maintaining and Editing
