@@ -5,5 +5,6 @@ permalink: /publication/2020-01-01-Assistance-for-Target-Selection-in-Mobile-Aug
 date: 2020-01-01
 venue: 'In the proceedings of Graphics Interface'
 citation: ' Vinod Asokan,  Scott Bateman,  Anthony Tang, &quot;Assistance for Target Selection in Mobile Augmented Reality.&quot; In the proceedings of Graphics Interface, 2020.'
+authors: 'Vinod Asokan, Scott Bateman, Anthony Tang'
 ---
 Use [Google Scholar](https://scholar.google.com/scholar?q=Assistance+for+Target+Selection+in+Mobile+Augmented+Reality){:target="_blank"} for full citation

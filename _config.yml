@@ -219,7 +219,7 @@ members:
             url: mailto:alexanderleblanc21@gmail.com
             icon: fa fa-envelope
       - name: Nick Balcomb
-        role: MCS Student - Interaction and Representation in XR
+        role: MCS - Interaction and Representation in XR
         website: 
         image: img/team/NickBalcomb.png
         social:
@@ -230,14 +230,14 @@ members:
             url: https://github.com/WolfwithSword
             icon: fa fa-github
           - title: Email
-            url: mailto:nickfebalcomb@gmail.com
+            url: mailto:nbalcomb@unb.ca
             icon: fa fa-envelope
       - name: David Hanna
         role: MCS Student - Game Development Tools
         website: 
         image:
         social:
-      - name: Joshua Robjets
+      - name: Joshua Roberts
         role: MCS Student - Games and MR
         website: https://joshuas-portfolio-2.jimdosite.com/
         image: img/team/joshroberts.jpg
