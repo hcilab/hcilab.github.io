@@ -250,6 +250,18 @@ members:
         website: 
         image: img/team/Tony.png
         social:
+
+      - name: Arya Parvizi
+        role: MSc. Student - Robotics and Human-Robot Interaction
+        website:
+        image: img/team/aparvizi.jpg
+        social:
+          - title: LinkedIn
+            url: https://www.linkedin.com/in/arya-parvizi/
+            icon: fa fa-linkedin
+          - title: GitHub
+            url: https://github.com/ph504/
+            icon: fa fa-github
         
     alumni:
       - name: Samridhi Pargal
