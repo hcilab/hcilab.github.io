@@ -221,6 +221,20 @@ members:
           - title: Email
             url: mailto:nbalcomb@unb.ca
             icon: fa fa-envelope
+      - name: Minh Nguyen
+        role: MCS - Human Robot Interaction
+        website: 
+        image: img/team/MinhNguyen.png
+        social:
+          - title: LinkedIn
+            url: https://www.linkedin.com/in/nguyendminh/
+            icon: fa fa-linkedin
+          - title: GitHub
+            url: https://github.com/MiraiOnGit
+            icon: fa fa-github
+          - title: Email
+            url: mailto:dnguyen1@unb.ca
+            icon: fa fa-envelope
       - name: Mike Flemming
         role: Professor, Computer Science
         website: 
