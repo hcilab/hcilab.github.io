@@ -370,7 +370,14 @@ members:
           - title: LinkedIn
             url: https://www.linkedin.com/in/joshua-roberts-a8b295161/
             icon: fa fa-linkedin
-
+      - name: Matthew de la Torre
+        role: MCS Student - Human Computer Interaction
+        website: 
+        image: img/team/mdlt_img.jpg
+        social:
+          - title: Email
+            url: mailto:delato.ml@unb.ca
+            icon: fa fa-envelope
       
     
         
