@@ -207,20 +207,38 @@ members:
           - title: Email
             url: mailto:alexanderleblanc21@gmail.com
             icon: fa fa-envelope
-      - name: Nick Balcomb
-        role: MCS - Interaction and Representation in XR
+      - name: Minh Nguyen
+        role: MCS - Human Robot Interaction
         website: 
-        image: img/team/NickBalcomb.png
+        image: img/team/NguyenMinh.png
         social:
           - title: LinkedIn
-            url: https://www.linkedin.com/in/nicholas-balcomb-0684b5134/
+            url: https://www.linkedin.com/in/nguyendminh/
             icon: fa fa-linkedin
           - title: GitHub
-            url: https://github.com/WolfwithSword
+            url: https://github.com/MiraiOnGit
             icon: fa fa-github
           - title: Email
-            url: mailto:nbalcomb@unb.ca
+            url: mailto:dnguyen1@unb.ca
+      - name: Matthew de la Torre
+        role: MCS Student - Human Computer Interaction
+        website: 
+        image: img/team/mdlt_img.jpg
+        social:
+          - title: Email
+            url: mailto:delato.ml@unb.ca
             icon: fa fa-envelope
+      - name: Arya Parvizi
+        role: MSc. Student - Robotics and Human-Robot Interaction
+        website:
+        image: img/team/aparvizi.jpg
+        social:
+          - title: LinkedIn
+            url: https://www.linkedin.com/in/arya-parvizi/
+            icon: fa fa-linkedin
+          - title: GitHub
+            url: https://github.com/ph504/
+            icon: fa fa-github
       - name: Mike Flemming
         role: Professor, Computer Science
         website: 
@@ -249,20 +267,6 @@ members:
         role: Associate Professor, University of Toronto
         website: 
         image: img/team/Tony.png
-        social:
-
-      - name: Arya Parvizi
-        role: MSc. Student - Robotics and Human-Robot Interaction
-        website:
-        image: img/team/aparvizi.jpg
-        social:
-          - title: LinkedIn
-            url: https://www.linkedin.com/in/arya-parvizi/
-            icon: fa fa-linkedin
-          - title: GitHub
-            url: https://github.com/ph504/
-            icon: fa fa-github
-        
     alumni:
       - name: Samridhi Pargal
         role: XR Developer - Spandrel Interactive
@@ -382,6 +386,20 @@ members:
           - title: LinkedIn
             url: https://www.linkedin.com/in/joshua-roberts-a8b295161/
             icon: fa fa-linkedin
+     - name: Nick Balcomb
+        role: Software Developer - Mariner
+        website: 
+        image: img/team/NickBalcomb.png
+        social:
+          - title: LinkedIn
+            url: https://www.linkedin.com/in/nicholas-balcomb-0684b5134/
+            icon: fa fa-linkedin
+          - title: GitHub
+            url: https://github.com/WolfwithSword
+            icon: fa fa-github
+          - title: Email
+            url: mailto:nbalcomb@unb.ca
+            icon: fa fa-envelop
 
       
     
