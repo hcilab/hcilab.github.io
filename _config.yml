@@ -220,6 +220,7 @@ members:
             icon: fa fa-github
           - title: Email
             url: mailto:dnguyen1@unb.ca
+            icon: fa fa-envelope
       - name: Matthew de la Torre
         role: MCS Student - Human Computer Interaction
         website: 
@@ -267,6 +268,8 @@ members:
         role: Associate Professor, University of Toronto
         website: 
         image: img/team/Tony.png
+        social:
+ 
     alumni:
       - name: Samridhi Pargal
         role: XR Developer - Spandrel Interactive
@@ -386,9 +389,9 @@ members:
           - title: LinkedIn
             url: https://www.linkedin.com/in/joshua-roberts-a8b295161/
             icon: fa fa-linkedin
-     - name: Nick Balcomb
-        role: Software Developer - Mariner
-        website: 
+      - name: Nick Balcomb
+        role: Software Developer & Consultant - Mariner
+        website: mailto:nbalcomb@unb.ca
         image: img/team/NickBalcomb.png
         social:
           - title: LinkedIn
