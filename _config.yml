@@ -389,7 +389,7 @@ members:
           - title: LinkedIn
             url: https://www.linkedin.com/in/joshua-roberts-a8b295161/
             icon: fa fa-linkedin
-     - name: Nick Balcomb
+      - name: Nick Balcomb
         role: Software Developer & Consultant - Mariner
         website: mailto:nbalcomb@unb.ca
         image: img/team/NickBalcomb.png
