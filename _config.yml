@@ -196,17 +196,6 @@ members:
           - title: GitHub
             url: https://github.com/BookSadprasid
             icon: fa fa-github
-      - name: Alexander LeBlanc
-        role: MCS Student - Game Design
-        website: 
-        image: img/team/alexleblanc.jpg
-        social:
-          - title: LinkedIn
-            url: https://www.linkedin.com/in/alexander-leblanc-7ba9b9100/
-            icon: fa fa-linkedin
-          - title: Email
-            url: mailto:alexanderleblanc21@gmail.com
-            icon: fa fa-envelope
       - name: Toushal Sewruttun
         role: Research Assistant / XR Developer - Human Robot Interaction
         website: 
@@ -427,11 +416,17 @@ members:
           - title: Email
             url: mailto:nbalcomb@unb.ca
             icon: fa fa-envelop
-
-      
-    
-        
-        
+      - name: Alexander LeBlanc
+        role: MCS Student - Game Design
+        website: 
+        image: img/team/alexleblanc.jpg
+        social:
+          - title: LinkedIn
+            url: https://www.linkedin.com/in/alexander-leblanc-7ba9b9100/
+            icon: fa fa-linkedin
+          - title: Email
+            url: mailto:alexanderleblanc21@gmail.com
+            icon: fa fa-envelope      
         
         
         
