@@ -253,6 +253,17 @@ members:
           - title: GitHub
             url: https://github.com/AmirhosseinAzimyzadeh
             icon: fa fa-github
+      - name: Fahimeh Tolouee
+        role: MCS Student - Human-Computer Interaction
+        website: 
+        image: img/team/f_tl_img.jpg
+        social:
+          - title: LinkedIn
+            url: https://ir.linkedin.com/in/fahimeh-tolouee-5a2642145
+            icon: fa fa-linkedin
+          - title: Email
+            url: mailto:fahimeh.tolouee@unb.ca
+            icon: fa fa-envelope
       - name: Mike Flemming
         role: Professor, Computer Science
         website: 
