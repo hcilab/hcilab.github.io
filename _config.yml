@@ -220,6 +220,7 @@ members:
             icon: fa fa-github
           - title: Email
             url: mailto:tsewrutt.work@gmail.com
+            icon: fa fa-envelope
       - name: Minh Nguyen
         role: MCS - Human Robot Interaction
         website: 
