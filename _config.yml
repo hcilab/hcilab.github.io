@@ -296,6 +296,11 @@ members:
         social:
  
     alumni:
+    - name: Pouya Pournasir
+        role: 
+        website: https://pouyapournasir.netlify.app
+        image: img/team/pouya.jpeg
+        social: 
       - name: Samridhi Pargal
         role: XR Developer - Spandrel Interactive
         website:
