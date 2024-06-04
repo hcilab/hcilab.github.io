@@ -19,6 +19,7 @@ description: > # this means to ignore newlines until "baseurl:"
   We are a group of researchers interested in Human-Computer Interaction.
   We are interested in building and evaluating new technologies, and understanding the
   way that people make use of technology for work and play.
+  We research novel computer interactions, human-robot interaction, mixed reality, and games used in all sorts of situations.
   We are based in the Faculty of Computer Science, at the University of New Brunswick, Fredericton, Canada.
 
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -48,55 +49,55 @@ settings:
 
     
 # Projects    
-projects:
-    - title: Therapy
-      display: true
-      image: img/portfolio/therapy-thumbnail.jpg
-      caption: HCI for Therapy
-      description: Movement and Game-Based Therapies
-      id: 1
-      modal:
-        - details: Game-Based Myo-Electric Training
-          iframe:
-            url: https://www.youtube.com/embed/Vkfi1--r1tU
-        - details: Visual Guidance for Physiotherapy
-          iframe:
-            url: https://www.youtube.com/embed/PE49fDbw-58
-    - title: Collab
-      display: true
-      image: img/portfolio/collab-thumbnail.jpg
-      caption: Interactions for Collaborative Work and Play
-      description:
-      id: 2
-      modal:
-        - details: Input Assistance for Game Balancing
-          iframe:
-            url: https://www.youtube.com/embed/FzVDZ1SX2vE
-        - details: 
-          iframe: 
-            url: https://www.youtube.com/embed/dXUVh6IHER8
-        - details: Interactions and Augmented Reality for Video Collaboration
-          iframe:
-            url: https://www.youtube.com/embed/na9OBQiVjLk?time_continue=292
-        - details:
-          iframe:
-            url: https://www.youtube.com/embed/4bS8MsyZKwE
-    - title: Info
-      display: true
-      image: img/portfolio/info-thumbnail.jpg
-      caption: Information Sharing and Visualization
-      description:
-      id: 3
-      modal:
-        - details: Personal Visualization
-          iframe:
-            url: https://player.vimeo.com/video/136210716
-        - details: Supporting Loose Collaborative Information Seeking
-          iframe:
-            url: https://www.youtube.com/embed/wby4-YnEzE4
-        - details:
-          iframe:
-            url: https://www.youtube.com/embed/rsfc_DXz4YA
+# projects:
+#     - title: Therapy
+#       display: true
+#       image: img/portfolio/therapy-thumbnail.jpg
+#       caption: HCI for Therapy
+#       description: Movement and Game-Based Therapies
+#       id: 1
+#       modal:
+#         - details: Game-Based Myo-Electric Training
+#           iframe:
+#             url: https://www.youtube.com/embed/Vkfi1--r1tU
+#         - details: Visual Guidance for Physiotherapy
+#           iframe:
+#             url: https://www.youtube.com/embed/PE49fDbw-58
+#     - title: Collab
+#       display: true
+#       image: img/portfolio/collab-thumbnail.jpg
+#       caption: Interactions for Collaborative Work and Play
+#       description:
+#       id: 2
+#       modal:
+#         - details: Input Assistance for Game Balancing
+#           iframe:
+#             url: https://www.youtube.com/embed/FzVDZ1SX2vE
+#         - details: 
+#           iframe: 
+#             url: https://www.youtube.com/embed/dXUVh6IHER8
+#         - details: Interactions and Augmented Reality for Video Collaboration
+#           iframe:
+#             url: https://www.youtube.com/embed/na9OBQiVjLk?time_continue=292
+#         - details:
+#           iframe:
+#             url: https://www.youtube.com/embed/4bS8MsyZKwE
+#     - title: Info
+#       display: true
+#       image: img/portfolio/info-thumbnail.jpg
+#       caption: Information Sharing and Visualization
+#       description:
+#       id: 3
+#       modal:
+#         - details: Personal Visualization
+#           iframe:
+#             url: https://player.vimeo.com/video/136210716
+#         - details: Supporting Loose Collaborative Information Seeking
+#           iframe:
+#             url: https://www.youtube.com/embed/wby4-YnEzE4
+#         - details:
+#           iframe:
+#             url: https://www.youtube.com/embed/rsfc_DXz4YA
     
 # Team
 members:
@@ -136,7 +137,7 @@ members:
             url: https://github.com/djrea
             icon: fa fa-github
       - name: Connor Wilson
-        role: PhD Student/Lab Manager - CS Education
+        role: PhD Student - CS Education
         website: 
         image: img/team/Connor.jpeg
         social:
@@ -175,27 +176,13 @@ members:
             url: mailto:iansmith.bwr@unb.ca
             icon: fa fa-envelope
       - name: Ethan Eddy
-        role: MSc.E. Student - Game-Based Training for EMG Pattern Recognition Prosthetics
+        role: PhD Student - EMG-Based Interactions
         website: 
         image: img/team/ethan.jpg
         social:
           - title: Email
             url: mailto:eeddy@unb.ca
             icon: fa fa-envelope
-      - name: Book Sadprasid
-        role: BCS Student
-        website:
-        image: img/team/book_sadprasid.jpg
-        social:
-          - title: Twitter
-            url: https://twitter.com/BookSadprasid
-            icon: fa fa-twitter
-          - title: LinkedIn
-            url: https://www.linkedin.com/in/bookkaraalexa/
-            icon: fa fa-linkedin
-          - title: GitHub
-            url: https://github.com/BookSadprasid
-            icon: fa fa-github
       - name: Toushal Sewruttun
         role: Research Assistant / XR Developer - Human Robot Interaction
         website: 
@@ -273,7 +260,7 @@ members:
           - title: Email
             url: mailto:mwf@unb.ca
             icon: fa fa-envelope
-      - name: Eric Scheme
+      - name: Erik Scheme
         role: Associate Professor, Electrical Engineering, Institute of Biomedical Engineering
         website: 
         image: img/team/Erik.png
@@ -290,12 +277,26 @@ members:
             url: mailto:gutwin@cs.usask.ca
             icon: fa fa-envelope
       - name: Tony Tang
-        role: Associate Professor, University of Toronto
+        role: Associate Professor, Singapore Management University
         website: 
         image: img/team/Tony.png
         social:
  
     alumni:
+    - name: Book Sadprasid
+        role: BCS Student
+        website:
+        image: img/team/book_sadprasid.jpg
+        # social:
+        #   - title: Twitter
+        #     url: https://twitter.com/BookSadprasid
+        #     icon: fa fa-twitter
+        #   - title: LinkedIn
+        #     url: https://www.linkedin.com/in/bookkaraalexa/
+        #     icon: fa fa-linkedin
+        #   - title: GitHub
+        #     url: https://github.com/BookSadprasid
+        #     icon: fa fa-github
       - name: Samridhi Pargal
         role: XR Developer - Spandrel Interactive
         website:
