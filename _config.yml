@@ -136,6 +136,20 @@ members:
           - title: GitHub
             url: https://github.com/djrea
             icon: fa fa-github
+      - name: Aaron Tabor
+        role: Lab Co-Director and Assistant Professor
+        website: 
+        image: img/team/aarontabor-2024.png
+        social:
+          - title: LinkedIn
+            url: https://www.linkedin.com/in/aaron-tabor-681b5968/
+            icon: fa fa-linkedin
+          - title: GitHub
+            url: https://github.com/aarontabor
+            icon: fa fa-github
+          - title: Email
+            url: mailto:aaron.tabor@unb.ca
+            icon: fa fa-envelope
       - name: Connor Wilson
         role: PhD Student - CS Education
         website: 
@@ -149,20 +163,6 @@ members:
             icon: fa fa-github
           - title: Email
             url: mailto:connor.wilson@unb.ca
-            icon: fa fa-envelope
-      - name: Aaron Tabor
-        role: PhD Student - Guided Breathing Technologies
-        website: 
-        image: img/team/aaron-tabor2018.png
-        social:
-          - title: LinkedIn
-            url: https://www.linkedin.com/in/aaron-tabor-681b5968/
-            icon: fa fa-linkedin
-          - title: GitHub
-            url: https://github.com/aarontabor
-            icon: fa fa-github
-          - title: Email
-            url: mailto:aaron.tabor@unb.ca
             icon: fa fa-envelope
       - name: Ian Smith
         role: PhD Student - HCI in Sports
