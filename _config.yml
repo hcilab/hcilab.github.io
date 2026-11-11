@@ -19,7 +19,7 @@ description: > # this means to ignore newlines until "baseurl:"
   We are a group of researchers interested in Human-Computer Interaction.
   We are interested in building and evaluating new technologies, and understanding the
   way that people make use of technology for work and play.
-  We research novel computer interactions, human-robot interaction, mixed reality, and games used in all sorts of situations.
+  We research novel computer interactions, mixed reality, and games used in all sorts of situations.
   We are based in the Faculty of Computer Science, at the University of New Brunswick, Fredericton, Canada.
 
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -182,7 +182,7 @@ members:
             icon: fa fa-envelope
     alumni:
       - name: Daniel J. Rea
-        role: Former Lab Co-Director
+        role: Assistant Professor - University of Manitoba
         website: http://djrea.ca
         image: img/team/djrea.jpg
         social:
@@ -199,7 +199,7 @@ members:
             url: https://github.com/djrea
             icon: fa fa-github
       - name: Connor Wilson
-        role: MCS 2021 - Perceived Credibility of News
+        role: Teaching Professor - Faculty of Computer Science, UNB (MCS 2021)
         website: 
         image: img/team/Connor.jpeg
         social:
@@ -213,7 +213,7 @@ members:
             url: mailto:connor.wilson@unb.ca
             icon: fa fa-envelope
       - name: Ian Smith
-        role: PhD 2026 - HCI in Sports
+        role: UX/HCI Researcher - Parados (PhD 2026)
         website: 
         image: img/team/ian_smith.jpeg
         social:
