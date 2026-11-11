@@ -318,9 +318,12 @@ members:
         website: https://kwid-ai.github.io/
         social:
       - name: Amy Cui
-        role: Visiting Student (2024) - Queen's University
+        role: MLIS Student (UX Design) - University of Toronto
         website:
         social:
+          - title: LinkedIn
+            url: https://www.linkedin.com/in/amy-cui-linked/
+            icon: fa fa-linkedin
       - name: Alexander Groom
         role: Software Developer - Kognitiv Spark
         website:
