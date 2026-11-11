@@ -238,7 +238,7 @@ members:
             url: mailto:tsewrutt.work@gmail.com
             icon: fa fa-envelope
       - name: Minh Nguyen
-        role: MCS Student - Human-Robot Interaction
+        role: Graduate Teaching Assistant - University of Manitoba
         website: 
         image: img/team/NguyenMinh.png
         social:
@@ -252,7 +252,7 @@ members:
             url: mailto:dnguyen1@unb.ca
             icon: fa fa-envelope
       - name: Matthew de la Torre
-        role: MCS Student - Human-Computer Interaction
+        role: MCS Graduate - University of New Brunswick
         website: 
         image: img/team/mdlt_img.jpg
         social:
@@ -260,7 +260,7 @@ members:
             url: mailto:delato.ml@unb.ca
             icon: fa fa-envelope
       - name: Arya Parvizi
-        role: MSc. Student - Human-Robot Interaction
+        role: Research Assistant - University of New Brunswick
         website:
         image: img/team/aparvizi.jpg
         social:
@@ -297,12 +297,12 @@ members:
         role: Undergraduate Research Assistant (2026)
         website:
         social:
-      - name: Erin Macneil
-        role: Undergraduate Research Assistant (2026)
+      - name: Erin MacNeil
+        role: Associate Software Engineer - Introhive
         website:
         social:
       - name: Stuart Thiel
-        role: Industrial Postdoctoral Fellow (2025)
+        role: Program Chair, Computer Science - UFred
         website:
         social:
       - name: Maryna Myronenko
@@ -310,7 +310,7 @@ members:
         website:
         social:
       - name: Promise Abel-Adegbite
-        role: BCS Honours 2025
+        role: Software Engineer II - SpryPoint (BCS Honours 2025)
         website:
         social:
       - name: Oyindolapo Komolafe
@@ -322,15 +322,15 @@ members:
         website:
         social:
       - name: Alexander Groom
-        role: Undergraduate Research Assistant (2024)
+        role: Software Developer - Kognitiv Spark
         website:
         social:
       - name: Jakob Ashfield
-        role: Undergraduate Research Assistant (2023-2024)
+        role: Software Engineer
         website:
         social:
       - name: Nolan Kisser
-        role: Visiting Student (2023) - Carleton University
+        role: Software Engineer
         website:
         social:
       - name: Alec McLellan
@@ -338,11 +338,11 @@ members:
         website:
         social:
       - name: Heena Thadani
-        role: Mitacs Globalink Visiting Intern (2022)
+        role: Game Developer
         website:
         social:
       - name: Deep Fumatiya
-        role: Mitacs Globalink Visiting Intern (2022)
+        role: Technology Associate - ICICI Bank
         website:
         social:
       - name: Kolton Gagnon
@@ -354,11 +354,11 @@ members:
         website:
         social:
       - name: Cassandra Folkins
-        role: MAHR 2020 - Serious Games for Nursing Careers
+        role: Program Advisor - Government of New Brunswick (MAHR 2020)
         website:
         social:
       - name: Book Sadprasid
-        role: BCS Student
+        role: PhD Student - University of Toronto
         website:
         image: img/team/book_sadprasid.jpg
         # social:
@@ -372,12 +372,12 @@ members:
         #     url: https://github.com/BookSadprasid
         #     icon: fa fa-github            
       - name: Pouya Pournasir
-        role: 
+        role: AI Product Engineer
         website: https://pouyapournasir.netlify.app
         image: img/team/pouya.jpeg
         social: 
       - name: Samridhi Pargal
-        role: XR Developer - Spandrel Interactive
+        role: Research Scientist
         website:
         image: img/team/SamridhiPargal.jpg
         social:
@@ -400,7 +400,7 @@ members:
             url: mailto:alexkienzle@hotmail.com
             icon: fa fa-envelope
       - name: Isayah Vidito
-        role: Software Developer - Terris
+        role: Cloud Engineer - Development Seed
         image: img/team/Isayah.jpeg
         social:
           - title: LinkedIn
@@ -420,17 +420,17 @@ members:
             url: mailto:ben.r.macpherson@gmail.com
             icon: fa fa-envelope
       - name: Reyhan Pradantyo
-        role:
+        role: Business Analyst - Government of New Brunswick
         website:
         image: img/team/Reyhan HCI.jpg
         social:
       - name: Vinod Asokan
-        role: Software Developer at Kognitiv Spark
+        role: Lead Software Engineer - Boeing
         website:
         image: img/team/vinod_asokan.jpg
         social:
       - name: Noor Ali
-        role: Software Developer - IBME
+        role: Senior Developer - NexJ Systems
         website:
         image:
         social:
@@ -440,12 +440,12 @@ members:
         image: img/team/Nikita.png
         social:
       - name: Wesley Finck
-        role: Crypto Researcher
+        role: Technical Co-Founder
         website:
         image:
         social:
       - name: Nathaniel Brewer
-        role: Software Developer & UX Designer
+        role: Web & Application Developer - Nathaniel C. Brewer Web Services
         website:
         image: img/team/Nathaniel.png
         social:
@@ -455,26 +455,26 @@ members:
         image: img/team/Manasi.png
         social:
       - name: Jawad Refai
-        role: Software Engineer at Kabam
+        role: Senior Gameplay Programmer - Gameloft Montreal
         website:
         image: img/team/Jawad.png
         social:
       - name: Jason Wuertz
-        role: Web Architect & UX Designer at Deltaware
+        role: Senior Software Engineer - Clipboard Health
         website:
         image: img/team/JasonW.png
       - name: Nathan Sonier
-        role: Software Developer - Beauceron
+        role: Senior Software Developer - Beauceron Security
         website:
         image: 
         social:
-      - name: Nolan Philips
-        role: Senior Developer at CareGuide
+      - name: Nolan Phillips
+        role: VP Engineering - Stemble Learning
         website:
         image: 
         social:
       - name: Alex Watson
-        role: Data Scientist, SG2B
+        role: Senior Developer - Mariner
         website:
         image: 
         social:
@@ -495,7 +495,7 @@ members:
             url: https://www.linkedin.com/in/joshua-roberts-a8b295161/
             icon: fa fa-linkedin
       - name: Nick Balcomb
-        role: Software Developer & Consultant - Mariner
+        role: Senior Java Developer - Government of Nova Scotia
         website: mailto:nbalcomb@unb.ca
         image: img/team/NickBalcomb.png
         social:
@@ -509,7 +509,7 @@ members:
             url: mailto:nbalcomb@unb.ca
             icon: fa fa-envelop
       - name: Alexander LeBlanc
-        role: MCS Student - Game Design
+        role: Subject Matter Expert - NBCC
         website: 
         image: img/team/alexleblanc.jpg
         social:
