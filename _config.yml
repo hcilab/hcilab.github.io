@@ -238,7 +238,7 @@ members:
             url: mailto:tsewrutt.work@gmail.com
             icon: fa fa-envelope
       - name: Minh Nguyen
-        role: Graduate Teaching Assistant - University of Manitoba
+        role: PhD Student - University of Manitoba
         website: 
         image: img/team/NguyenMinh.png
         social:
@@ -260,7 +260,7 @@ members:
             url: mailto:delato.ml@unb.ca
             icon: fa fa-envelope
       - name: Arya Parvizi
-        role: Research Assistant - University of New Brunswick
+        role: MCS Student
         website:
         image: img/team/aparvizi.jpg
         social:
