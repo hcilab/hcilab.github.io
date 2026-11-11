@@ -161,21 +161,10 @@ members:
         role: MCS Student
         website:
         social:
-      - name: Amirhossein Azimyzadeh
-        role: HCI Research Developer - SPECTRAL (MCS 2025)
-        website: 
-        image: img/team/a_azm.jpg
-        social:
-          - title: Website
-            url: https://amirhosseinazimyzadeh.github.io
-            icon: fa fa-globe
-          - title: GitHub
-            url: https://github.com/AmirhosseinAzimyzadeh
-            icon: fa fa-github
       - name: Erik Scheme
-        role: Associate Professor, Electrical Engineering, Institute of Biomedical Engineering
+        role: Professor, Electrical and Computer Engineering; Acting Director, Institute of Biomedical Engineering
         website: 
-        image: img/team/Erik.png
+        image: img/team/erik_scheme_2026.jpg
         social:
           - title: Email
             url: mailto:escheme@unb.ca
@@ -223,6 +212,20 @@ members:
           - title: Email
             url: mailto:iansmith.bwr@unb.ca
             icon: fa fa-envelope
+      - name: Amirhossein Azimyzadeh
+        role: Software Developer - Redlen Technologies (MCS 2025)
+        website: 
+        image: img/team/a_azm.jpg
+        social:
+          - title: Website
+            url: https://amirhosseinazimyzadeh.github.io
+            icon: fa fa-globe
+          - title: GitHub
+            url: https://github.com/AmirhosseinAzimyzadeh
+            icon: fa fa-github
+          - title: LinkedIn
+            url: https://www.linkedin.com/in/amirhossein-azm/
+            icon: fa fa-linkedin
       - name: Toushal Sewruttun
         role: Research Assistant / XR Developer - Human-Robot Interaction
         website: 
