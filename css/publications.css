@@ -1,0 +1,65 @@
+/* Publications list (_includes/publications_list.html) */
+
+.pubs { padding-top: 40px; }
+
+.pub-toc { margin: 0 0 1.5em; font-size: 14px; }
+.pub-toc a { display: inline-block; margin-right: 1em; }
+
+.pub-section {
+  margin-top: 1.5em;
+  padding-bottom: 0.25em;
+  border-bottom: 1px solid #ddd;
+  font-size: 26px;
+  text-transform: none;
+}
+
+.pub-list { margin: 0; padding: 0; list-style: none; }
+
+.pub {
+  display: flex;
+  gap: 1em;
+  align-items: flex-start;
+  padding: 0.9em 0;
+  font-size: 15px;
+  line-height: 1.5;
+  scroll-margin-top: 80px;
+}
+.pub + .pub { border-top: 1px dotted #ddd; }
+
+.pub__num { flex: 0 0 2.25em; color: #7a8288; text-align: right; }
+
+.pub__thumb { flex: 0 0 150px; }
+.pub__thumb img {
+  display: block;
+  width: 150px;
+  height: auto;
+  max-height: 200px;
+  object-fit: contain;
+  object-position: top left;
+}
+
+.pub__body { flex: 1 1 auto; min-width: 0; }
+.pub__title { font-weight: bold; }
+
+.pub__meta { display: flex; flex-wrap: wrap; gap: 0.4em; margin-top: 0.35em; }
+
+.pub__tag,
+.pub__link,
+.pub__award {
+  display: inline-block;
+  padding: 0 0.5em;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  font-size: 12px;
+  line-height: 1.7;
+  text-decoration: none;
+}
+.pub__tag { color: #7a8288; background: #f2f3f3; }
+.pub__link { color: #f00000; }
+.pub__link:hover,
+.pub__link:focus { color: #fff; background: #f00000; border-color: #f00000; text-decoration: none; }
+.pub__award { color: #8a5a00; background: #fff4d6; border-color: #f0c96a; }
+
+@media (max-width: 600px) {
+  .pub__thumb { display: none; }
+}

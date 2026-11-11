@@ -1,73 +1,47 @@
-<section>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-10 col-lg-offset-1">
-          {% for post in site.publications reversed %}
-            {% if post.header.teaser %}
-              {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
-            {% else %}
-              {% assign teaser = site.teaser %}
-            {% endif %}
+{% assign sections = "conference|Refereed conference papers;journal|Journal articles;chapter|Book chapters;other|Workshops, extended abstracts & reports" | split: ";" %}
+{% assign pubs = site.publications | sort: "date" | reverse %}
+<section class="pubs">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 col-lg-offset-1">
+        <p>Titles link to the published version of each paper.</p>
 
-            {% if post.id %}
-              {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
-            {% else %}
-              {% assign title = post.title %}
-            {% endif %}
+        <p class="pub-toc">
+        {% for s in sections %}{% assign key = s | split: "|" | first %}{% assign label = s | split: "|" | last %}{% assign items = pubs | where: "pubtype", key %}<a href="#{{ key }}">{{ label }} ({{ items.size }})</a> {% endfor %}
+        </p>
 
-            <div class="{{ include.type | default: "list" }}__item">
-              <article style="display: flex;" class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-                {% if teaser %}
-                  <div style="margin-right: 32px;">
-                    <img src="{{ teaser | prepend: "/images/" | prepend: base_path }}" alt="" width="128px">
-                  </div>
-                {% endif %}
-                {% if include.type == "grid" and teaser %}
-                  <!-- <div class="archive__item-teaser">
-                    <img src=
-                      {% if teaser contains "://" %}
-                        "{{ teaser }}"
-                      {% else %}
-                        "{{ teaser | prepend: "/images/" | prepend: base_path }}"
-                      {% endif %}
-                      alt="">
-                  </div> -->
-                {% endif %}
-                <div>
-                  <span style="text-decoration: none; font-size: 20px;" class="archive__item-title" itemprop="headline">
-                    {{title}}
-                  </span>
-          <span><br />{{post.authors}}</span>
-
-                  {% if post.read_time %}
-                    <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
-                  {% endif %}
-                  {% if post.collection == 'teaching' %}
-                    <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
-                  {% elsif post.collection == 'publications' %}
-                    <br /><span><i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </span>
-                  {% elsif post.date %}
-                    <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
-                  {% endif %}
-
-                  {% if post.excerpt and site.read_more != 'enabled' %}
-            <span><br />{{ post.excerpt | markdownify }}</span>
-                    <!-- <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>-->
-                  {% elsif post.excerpt and site.read_more == 'enabled' %}
-                    <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
-                  {% endif %}
-                  <!-- {% if post.citation and post.paperurl %}
-                    <p>Recommended citation: {{ post.citation }} <a href="{{ post.paperurl }}"><u>{{ post.paperurl }}</u></a></p>
-                  {% elsif post.citation %}
-                    <p>Recommended citation: {{ post.citation }} </p>
-                  {% elsif post.paperurl %}
-                    <p>Download <a href=" {{ post.paperurl }} "><u>here</u></a></p>
-                  {% endif %} -->
-                </div>
-              </article>
+        {% for s in sections %}
+        {% assign key = s | split: "|" | first %}
+        {% assign label = s | split: "|" | last %}
+        {% assign items = pubs | where: "pubtype", key %}
+        <h2 id="{{ key }}" class="pub-section">{{ label }}</h2>
+        <ol class="pub-list">
+        {% for post in items %}
+          {% assign n = items.size | minus: forloop.index0 %}
+          {% assign link = post.doi | default: post.paperurl | default: post.pdf | default: post.url %}
+          {% assign last = post.title | slice: -1 %}
+          <li class="pub" id="{{ key }}-{{ n }}">
+            <span class="pub__num">{{ n }}.</span>
+            {% if post.thumbnail %}<a class="pub__thumb" href="{{ link }}" tabindex="-1" aria-hidden="true"><img src="{{ post.thumbnail | relative_url }}" alt="" loading="lazy"></a>{% elsif key == "conference" or key == "journal" %}<span class="pub__thumb"></span>{% endif %}
+            <div class="pub__body">
+              {{ post.authors | escape | replace: "Bateman, S.", "<strong>Bateman, S.</strong>" }} ({{ post.date | date: "%Y" }}).
+              <a class="pub__title" href="{{ link }}">{{ post.title }}</a>{% unless last == "?" or last == "!" or last == "." %}.{% endunless %}
+              <em>{% if key == "conference" %}In Proceedings of {% endif %}{{ post.venue | escape }}</em>.
+              <div class="pub__meta">
+                <span class="pub__tag">{{ post.venue_short }}</span>
+                {% if post.award %}<span class="pub__award">&#9733; {{ post.award }}</span>{% endif %}
+                {% if post.doi %}<a class="pub__link" href="{{ post.doi }}">DOI</a>{% endif %}
+                {% if post.pdf %}<a class="pub__link" href="{{ post.pdf }}">PDF</a>{% endif %}
+                {% if post.video %}<a class="pub__link" href="{{ post.video }}">Video</a>{% endif %}
+                {% if post.code %}<a class="pub__link" href="{{ post.code }}">Code</a>{% endif %}
+                <a class="pub__link" href="https://scholar.google.com/scholar?q={{ post.title | url_encode }}">Scholar</a>
+              </div>
             </div>
-          {% endfor %}
-        </div>
+          </li>
+        {% endfor %}
+        </ol>
+        {% endfor %}
       </div>
     </div>
-  </section>
+  </div>
+</section>

@@ -3,8 +3,11 @@ title: "Physio@ Home: Exploring visual guidance and feedback techniques for phys
 collection: publications
 permalink: /publication/2015-01-01-Physio-Home-Exploring-visual-guidance-and-feedback-techniques-for-physiotherapy-exercises
 date: 2015-01-01
-venue: 'In the proceedings of Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems'
+venue: '33rd Annual ACM Conference on Human Factors in Computing Systems'
 citation: ' Richard Tang,  Xing-Dong Yang,  Scott Bateman,  Joaquim Jorge,  Anthony Tang, &quot;Physio@ Home: Exploring visual guidance and feedback techniques for physiotherapy exercises.&quot; In the proceedings of Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems, 2015.'
-authors: 'Richard Tang, Xing-Dong Yang, Scott Bateman, Joaquim Jorge, Anthony Tang'
+pubtype: 'conference'
+venue_short: 'CHI 2015B'
+authors: 'Tang, R., Yang, X., Bateman, S., Jorge, J. & Tang, A.'
+thumbnail: '/images/pubs/2015-01-01-Physio-Home-Exploring-visual-guidance-and-feedback-techniques-for-physiotherapy-exercises.jpg'
 ---
 Use [Google Scholar](https://scholar.google.com/scholar?q=Physio@+Home:+Exploring+visual+guidance+and+feedback+techniques+for+physiotherapy+exercises){:target="_blank"} for full citation

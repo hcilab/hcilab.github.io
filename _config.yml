@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: UNB HCI Lab
-email: scottb@unb.ca;drea1@unb.ca
+email: scottb@unb.ca
 description: > # this means to ignore newlines until "baseurl:"
   We are a group of researchers interested in Human-Computer Interaction.
   We are interested in building and evaluating new technologies, and understanding the
@@ -103,9 +103,9 @@ settings:
 members:
     team:
       - name: Scott Bateman
-        role: Lab Co-Director and Associate Professor
+        role: Lab Co-Director and Professor
         website: http://scottbateman.ca
-        image: img/team/scott_bateman.jpeg
+        image: img/team/scott_bateman_2026.png
         social:
           - title: Website
             url: http://scottbateman.ca
@@ -118,23 +118,6 @@ members:
             icon: fa fa-linkedin
           - title: GitHub
             url: https://github.com/scottbateman
-            icon: fa fa-github
-      - name: Daniel J. Rea
-        role: Lab Co-Director and Assistant Professor
-        website: http://djrea.ca
-        image: img/team/djrea.jpg
-        social:
-          - title: Website
-            url: http://djrea.ca
-            icon: fa fa-globe
-          - title: Twitter
-            url: https://twitter.com/bitbytechomp
-            icon: fa fa-twitter
-          - title: LinkedIn
-            url: https://www.linkedin.com/in/daniel-rea-94279a47/
-            icon: fa fa-linkedin
-          - title: GitHub
-            url: https://github.com/djrea
             icon: fa fa-github
       - name: Aaron Tabor
         role: Lab Co-Director and Assistant Professor
@@ -150,8 +133,73 @@ members:
           - title: Email
             url: mailto:aaron.tabor@unb.ca
             icon: fa fa-envelope
+      - name: Ethan Eddy
+        role: PhD Student - EMG-Based Interactions
+        website: 
+        image: img/team/ethan.jpg
+        social:
+          - title: Email
+            url: mailto:eeddy@unb.ca
+            icon: fa fa-envelope
+      - name: Colin Brett
+        role: PhD Student - Digital Minimalism
+        website:
+        social:
+      - name: Cole Campbell
+        role: PhD Student - AI Tools for University Instructors
+        website:
+        social:
+      - name: Charles Ewaifoh Ejedawe
+        role: MCS Student - Activity Detection from Heart-Rate Variability
+        website:
+        social:
+      - name: Nashmia Riaz
+        role: MCS Student - Player-Selected Challenge in Games
+        website:
+        social:
+      - name: Shantu Latke
+        role: MCS Student
+        website:
+        social:
+      - name: Amirhossein Azimyzadeh
+        role: HCI Research Developer - SPECTRAL (MCS 2025)
+        website: 
+        image: img/team/a_azm.jpg
+        social:
+          - title: Website
+            url: https://amirhosseinazimyzadeh.github.io
+            icon: fa fa-globe
+          - title: GitHub
+            url: https://github.com/AmirhosseinAzimyzadeh
+            icon: fa fa-github
+      - name: Erik Scheme
+        role: Associate Professor, Electrical Engineering, Institute of Biomedical Engineering
+        website: 
+        image: img/team/Erik.png
+        social:
+          - title: Email
+            url: mailto:escheme@unb.ca
+            icon: fa fa-envelope
+    alumni:
+      - name: Daniel J. Rea
+        role: Former Lab Co-Director
+        website: http://djrea.ca
+        image: img/team/djrea.jpg
+        social:
+          - title: Website
+            url: http://djrea.ca
+            icon: fa fa-globe
+          - title: Twitter
+            url: https://twitter.com/bitbytechomp
+            icon: fa fa-twitter
+          - title: LinkedIn
+            url: https://www.linkedin.com/in/daniel-rea-94279a47/
+            icon: fa fa-linkedin
+          - title: GitHub
+            url: https://github.com/djrea
+            icon: fa fa-github
       - name: Connor Wilson
-        role: PhD Student - CS Education
+        role: MCS 2021 - Perceived Credibility of News
         website: 
         image: img/team/Connor.jpeg
         social:
@@ -165,7 +213,7 @@ members:
             url: mailto:connor.wilson@unb.ca
             icon: fa fa-envelope
       - name: Ian Smith
-        role: PhD Student - HCI in Sports
+        role: PhD 2026 - HCI in Sports
         website: 
         image: img/team/ian_smith.jpeg
         social:
@@ -175,16 +223,8 @@ members:
           - title: Email
             url: mailto:iansmith.bwr@unb.ca
             icon: fa fa-envelope
-      - name: Ethan Eddy
-        role: PhD Student - EMG-Based Interactions
-        website: 
-        image: img/team/ethan.jpg
-        social:
-          - title: Email
-            url: mailto:eeddy@unb.ca
-            icon: fa fa-envelope
       - name: Toushal Sewruttun
-        role: Research Assistant / XR Developer - Human Robot Interaction
+        role: Research Assistant / XR Developer - Human-Robot Interaction
         website: 
         image: img/team/toushal.jpg
         social:
@@ -198,7 +238,7 @@ members:
             url: mailto:tsewrutt.work@gmail.com
             icon: fa fa-envelope
       - name: Minh Nguyen
-        role: MCS - Human Robot Interaction
+        role: MCS Student - Human-Robot Interaction
         website: 
         image: img/team/NguyenMinh.png
         social:
@@ -212,7 +252,7 @@ members:
             url: mailto:dnguyen1@unb.ca
             icon: fa fa-envelope
       - name: Matthew de la Torre
-        role: MCS Student - Human Computer Interaction
+        role: MCS Student - Human-Computer Interaction
         website: 
         image: img/team/mdlt_img.jpg
         social:
@@ -220,7 +260,7 @@ members:
             url: mailto:delato.ml@unb.ca
             icon: fa fa-envelope
       - name: Arya Parvizi
-        role: MSc. Student - Robotics and Human-Robot Interaction
+        role: MSc. Student - Human-Robot Interaction
         website:
         image: img/team/aparvizi.jpg
         social:
@@ -230,19 +270,8 @@ members:
           - title: GitHub
             url: https://github.com/ph504/
             icon: fa fa-github
-      - name: Amirhossein Azimyzadeh
-        role: MCS Student - Human-Computer Interaction
-        website: 
-        image: img/team/a_azm.jpg
-        social:
-          - title: Website
-            url: https://amirhosseinazimyzadeh.github.io
-            icon: fa fa-globe
-          - title: GitHub
-            url: https://github.com/AmirhosseinAzimyzadeh
-            icon: fa fa-github
       - name: Fahimeh Tolouee
-        role: MCS Student - Human-Computer Interaction
+        role: MCS 2026 - Embodiment in Mixed Reality
         website: 
         image: img/team/f_tl_img.jpg
         social:
@@ -252,37 +281,82 @@ members:
           - title: Email
             url: mailto:fahimeh.tolouee@unb.ca
             icon: fa fa-envelope
-      - name: Mike Fleming
-        role: Professor, Computer Science
-        website: 
-        image: img/team/mwf_headshot2.jpg
+      - name: Taylor Short
+        role: MCS 2026 - Mixed Reality Games for Older Adults
+        website:
         social:
-          - title: Email
-            url: mailto:mwf@unb.ca
-            icon: fa fa-envelope
-      - name: Erik Scheme
-        role: Associate Professor, Electrical Engineering, Institute of Biomedical Engineering
-        website: 
-        image: img/team/Erik.png
+      - name: Renata Lara Lopez
+        role: Mitacs Visiting Intern (2026) - UASLP, Mexico
+        website:
         social:
-          - title: Email
-            url: mailto:escheme@unb.ca
-            icon: fa fa-envelope
-      - name: Carl Gutwin
-        role: Professor, University of Saskatchewan
-        website: 
-        image: img/team/carl_gutwin.png
+      - name: Isabella Lopez Ibarra
+        role: Mitacs Visiting Intern (2026) - UAO, Colombia
+        website:
         social:
-          - title: Email
-            url: mailto:gutwin@cs.usask.ca
-            icon: fa fa-envelope
-      - name: Tony Tang
-        role: Associate Professor, Singapore Management University
-        website: 
-        image: img/team/Tony.png
+      - name: Jashendeep Singh Sidhu
+        role: Undergraduate Research Assistant (2026)
+        website:
         social:
- 
-    alumni:
+      - name: Erin Macneil
+        role: Undergraduate Research Assistant (2026)
+        website:
+        social:
+      - name: Stuart Thiel
+        role: Industrial Postdoctoral Fellow (2025)
+        website:
+        social:
+      - name: Maryna Myronenko
+        role: BCS Honours 2025
+        website:
+        social:
+      - name: Promise Abel-Adegbite
+        role: BCS Honours 2025
+        website:
+        social:
+      - name: Oyindolapo Komolafe
+        role: MCS 2024 - Augmented Reality in Construction
+        website:
+        social:
+      - name: Amy Cui
+        role: Visiting Student (2024) - Queen's University
+        website:
+        social:
+      - name: Alexander Groom
+        role: Undergraduate Research Assistant (2024)
+        website:
+        social:
+      - name: Jakob Ashfield
+        role: Undergraduate Research Assistant (2023-2024)
+        website:
+        social:
+      - name: Nolan Kisser
+        role: Visiting Student (2023) - Carleton University
+        website:
+        social:
+      - name: Alec McLellan
+        role: Postdoctoral Fellow (2022-2023)
+        website:
+        social:
+      - name: Heena Thadani
+        role: Mitacs Globalink Visiting Intern (2022)
+        website:
+        social:
+      - name: Deep Fumatiya
+        role: Mitacs Globalink Visiting Intern (2022)
+        website:
+        social:
+      - name: Kolton Gagnon
+        role: BCS Honours 2022
+        website:
+        social:
+      - name: Cora Woolsey
+        role: Postdoctoral Fellow (2020-2022) - Founder, ArchaeoSoft
+        website:
+        social:
+      - name: Cassandra Folkins
+        role: MAHR 2020 - Serious Games for Nursing Careers
+        website:
+        social:
       - name: Book Sadprasid
         role: BCS Student
         website:
